@@ -14,6 +14,15 @@ It feels like a notebook. Underneath, it's anything but casual — every
 answer is worked out the same careful way, every time, from the same
 record. Smooth to use; rigorous where it counts.
 
+And this surface is one piece of a larger idea. GuardianLink is built so
+you can **hand your cares over and trust them held**: it watches on your
+behalf, keeps them straight, and enforces your best interests by
+default. The only thing that ever overrides it is you — expressly,
+by deliberate decision. Your authorship outranks its model of your
+interests, always. What you're looking at in this repository is the
+record-keeping surface of that system — the piece that keeps the story
+straight — not the parts that act in the world.
+
 ## Try it
 
 **Live demo — nothing to install:**
