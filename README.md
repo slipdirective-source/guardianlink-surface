@@ -103,3 +103,27 @@ scored from the raw outputs and admission logs. Its fix history —
 including failures that were found, kept on the record, and fixed — is
 part of the project's own trajectory. Which is, rather, the point of
 the thing.
+
+## Verify the build yourself
+
+The surface application inside every avenue of this release is the same
+artifact — not the same version, the same bytes. Its SHA-256:
+
+- `ui/dist/bundle.js` —
+  25d83f7c146dd283195e9c5e18320f4692cf62adebeac01c5bd3200fe1bd6ed7
+- `ui/dist/bundle.css` —
+  152e9f9becdb30a5f808f811846e1d098226560306cff8f26492f4af8a7d3b2a
+
+Check it anywhere: in the package zip (`ui/dist/`), inside the APK
+(`assets/ui/dist/` — an APK is a zip archive), or served by the live
+demo. If the hash matches, you are running the exact build that was
+frozen by manifest and put through the blind holdout verification
+described above. The release zip itself: SHA-256
+4a76504ab6a175e98b099480a6fd241cfaf23d80cbedb31e0ed799a7f50d792b.
+
+## Rights
+
+All rights reserved — see `LICENSE`. Downloading the released artifacts
+and trying them is the use they are published for; the GuardianLink
+framework, and the authorship of this work, are not transferred by a
+download.
