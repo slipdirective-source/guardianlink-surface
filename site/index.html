@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>GuardianLink Surface — a record that keeps itself straight</title>
+<link rel="icon" type="image/png" href="demo/icons/icon-192.png" />
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #0d0f11; color: #e8e6df;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3.5rem 1.25rem 4rem; }
+  .mark { display: flex; align-items: center; gap: 0.9rem; margin-bottom: 2.2rem; }
+  .mark img { width: 52px; height: 52px; border-radius: 12px; }
+  .mark span { font-size: 0.85rem; letter-spacing: 0.18em; text-transform: uppercase; color: #b9b4a4; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 1.1rem; font-weight: 650; }
+  p { margin: 0 0 1.1rem; font-size: 1.06rem; color: #d7d4c9; }
+  p strong { color: #f2ead2; }
+  .try {
+    display: inline-block; margin: 1.2rem 0 0.6rem; padding: 0.95rem 2.2rem;
+    background: #c9a227; color: #141414; font-weight: 700; font-size: 1.1rem;
+    border-radius: 999px; text-decoration: none;
+  }
+  .try:hover { background: #dcb234; }
+  .try-note { font-size: 0.92rem; color: #a49f8f; }
+  h2 { font-size: 1.15rem; margin: 2.8rem 0 0.7rem; color: #f0ead6; }
+  .downloads a {
+    display: block; padding: 0.85rem 1.1rem; margin-bottom: 0.6rem;
+    border: 1px solid #2c2f33; border-radius: 12px; color: #e8e6df;
+    text-decoration: none; background: #131517;
+  }
+  .downloads a:hover { border-color: #c9a227; }
+  .downloads b { display: block; font-size: 1.02rem; }
+  .downloads small { color: #a49f8f; }
+  footer { margin-top: 3rem; font-size: 0.9rem; color: #8f8a7a; }
+  footer a { color: #c9b45c; }
+</style>
+</head>
+<body>
+<main>
+  <div class="mark">
+    <img src="demo/icons/icon-512.png" alt="" />
+    <span>GuardianLink Surface</span>
+  </div>
+
+  <h1>A record that keeps itself straight.</h1>
+
+  <p>
+    GuardianLink Surface is a small app for keeping track of what's true
+    right now — and noticing when it stops agreeing with itself. You add
+    what happened, in plain words, and ask what it means. If two entries
+    contradict each other, <strong>Surface shows you the conflict instead
+    of quietly picking a winner</strong>. If you correct something, the
+    correction stays tied to the original, out in the open.
+  </p>
+
+  <p>
+    No account. No cloud. Nothing leaves your device. It runs entirely in
+    your browser or on your phone, and it forgets everything when you
+    close it — unless you save a copy yourself. Smooth on the surface;
+    underneath, every answer is worked out the same careful way, every
+    time.
+  </p>
+
+  <a class="try" href="demo/">Try it</a>
+  <p class="try-note">Opens the live demo right here in your browser. Nothing to install.</p>
+
+  <h2>Take it with you</h2>
+  <div class="downloads">
+    <a href="https://github.com/slipdirective-source/guardianlink-surface/releases/latest/download/guardianlink-surface-v0.1.0-debug.apk">
+      <b>Android app (.apk)</b>
+      <small>The whole surface on your phone, fully offline, no permissions. It's a research build with a debug signature, so Android will ask you to confirm the install.</small>
+    </a>
+    <a href="https://github.com/slipdirective-source/guardianlink-surface/releases/latest/download/guardianlink-surface-harness-2026-10-23.zip">
+      <b>Full package (.zip)</b>
+      <small>The surface, the observer console, and a terminal harness. Runs anywhere with Node.js — including Termux on Android. Start with README.txt inside.</small>
+    </a>
+    <a href="https://github.com/slipdirective-source/guardianlink-surface/releases/latest">
+      <b>All releases</b>
+      <small>Release notes and the fine print, in the open.</small>
+    </a>
+  </div>
+
+  <footer>
+    Research build — honest about its limits, including the ones listed in the
+    <a href="https://github.com/slipdirective-source/guardianlink-surface">README on GitHub</a>.
+  </footer>
+</main>
+</body>
+</html>

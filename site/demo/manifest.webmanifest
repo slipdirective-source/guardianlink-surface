@@ -1,0 +1,32 @@
+{
+ "background_color": "#0d0f11",
+ "description": "GuardianLink cognitive surface \u2014 the record, through five lenses. Deterministic pipeline, in-memory record, nothing uploaded.",
+ "display": "standalone",
+ "icons": [
+  {
+   "purpose": "any",
+   "sizes": "192x192",
+   "src": "icons/icon-192.png",
+   "type": "image/png"
+  },
+  {
+   "purpose": "any",
+   "sizes": "512x512",
+   "src": "icons/icon-512.png",
+   "type": "image/png"
+  },
+  {
+   "purpose": "maskable",
+   "sizes": "512x512",
+   "src": "icons/icon-maskable-512.png",
+   "type": "image/png"
+  }
+ ],
+ "id": ".",
+ "name": "GuardianLink Surface",
+ "orientation": "portrait",
+ "scope": ".",
+ "short_name": "GL Surface",
+ "start_url": ".",
+ "theme_color": "#0d0f11"
+}
